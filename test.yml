@@ -1,0 +1,8 @@
+---
+- name: Test
+  hosts: local
+  remote_user: root
+  tasks:
+
+  - name: Hello World
+    shell: "echo hello world"
